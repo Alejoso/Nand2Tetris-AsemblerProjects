@@ -1,6 +1,6 @@
 //----------------Parte entera de la raiz cuadrada
 
-@30
+@1000
 D=A
 @RaizCuadrda //--16
 M=D
@@ -27,8 +27,11 @@ D=M
 M=D
 @NumeroB
 M=D
+@Acomulado
+M=0
 @Multiplicacion
 0;JMP
+
 
 //----------------Multiplicacion------------------
 
@@ -40,6 +43,7 @@ M=D
 //-----------------Asignacion de variables
 
 (Multiplicacion) //Sumar factor veces nuestra base
+
 @Acomulado
 D=M
 @NumeroA
@@ -61,13 +65,19 @@ D=M-D  //Hacer la comparacion si el residuo es positivo, para saber si debemos d
 D;JGE
 
 (Fin)
-@Fin
+@Resultado
+M=M-1
+@Loop
 0;JMP
 
 (SumarUno)
 @Resultado
 M=M+1
 @Iteracion //Volvemos a realizar la iteracion pero con +1
+0;JMP
+
+(Loop)
+@Loop
 0;JMP
 
 //------------------Parte entera de la division------------------------
