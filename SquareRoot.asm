@@ -1,23 +1,24 @@
 //----------------Parte entera de la raiz cuadrada
 
-@1000
-D=A
-@RaizCuadrda //--16
-M=D
-
-@Fin
-D;JLE
+@Acomulado //-- 16
+M=0
 
 @NumeroA //Guardamos el numerador en nuestra variable -- 17
 M=0
 
-@NumeroB //Guardamos el denominador -- 18
+@27
+D=A
+
+@RaizCuadrda //--18
+M=D
+
+@Resultado // -- 19
 M=0
 
-@Acomulado //-- 19
-M=0
+@Fin
+D;JLE
 
-@Resultado // -- 20
+@NumeroB //Guardamos el denominador -- 20
 M=0
 
 (Iteracion)
