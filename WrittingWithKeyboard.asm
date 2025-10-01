@@ -1,4 +1,3 @@
-(MoverPantalla)
 @SCREEN
 D=A
 @WhereAreWe
@@ -20,7 +19,7 @@ M=D
 	D=M
     @Letter
     M=D
-    //Mirar si puso la letra A --Inicail de Alejito 
+    //Mirar si puso la letra A --Inicial de Alejito 
     @Letter
     D=M
     @65
