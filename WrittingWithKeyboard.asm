@@ -7,9 +7,17 @@ M=D
 (Loop)
     @KBD
     D=M
+	@LetraTemp
+	M=D
+	@Letter
+	D=M
+	@LetraTemp
+	D=D-M
     @Loop
     D;JEQ
 
+	@LetraTemp
+	D=M
     @Letter
     M=D
     //Mirar si puso la letra A --Inicail de Alejito 
