@@ -1,12 +1,21 @@
-# Nand2Tetris-AsemblerProjects
+# ⚡ Nand2Tetris - Assembler Projects
 
-## ¿Cómo ejecutar el proyecto?
+## 🛠️ ¿Cómo ejecutar el proyecto?
 
-- Se debe de clonar el repostorio
-  ```bash
-  git clone https://github.com/Alejoso/Nand2Tetris-AsemblerProjects.git
-  ```
+1. **Clonar el repositorio**
 
-- Luego debes instalar el [software de nand2tetris](https://www.nand2tetris.org/software) para ejecutar el CPUEmulator que se encuentra en la carpeta tools.
+   ```bash
+   git clone https://github.com/Alejoso/Nand2Tetris-AsemblerProjects.git
+   ```
 
-- En el emulador debes cargar algún archivo del repositorio que acabas de descargar, para de este modo poder probar los códigos. (Lo recomendable es usar no animation para una mejor experiencia)
+2. **Instalar el software de Nand2Tetris**
+   👉 Descárgalo desde la página oficial: [nand2tetris.org/software](https://www.nand2tetris.org/software)
+   Este paquete incluye el **CPUEmulator**, ubicado en la carpeta `tools`.
+
+3. **Cargar y ejecutar los programas**
+
+   * Abre el **CPUEmulator** ⚙️.
+   * Carga alguno de los archivos `.asm` de este repositorio 📂.
+   * Para una experiencia más fluida, se recomienda ejecutar en modo **"No Animation"** ▶️.
+
+---
